@@ -22,11 +22,12 @@ Masuk ke dalam direktori proyek yang baru saja di-clone:
 
 3. Install Dependensi
 Install semua dependensi yang diperlukan dengan npm:
+```npm install -g vite``` // installasi vite jika belum ada
 ```npm i / npm install```
 ```npm i -g json-server``` // installasi json server
 Ini akan menginstal semua dependensi yang diperlukan, termasuk react-router-dom dan react-icons.
 
-4. Menjalankan Aplikasi
+5. Menjalankan Aplikasi
 Setelah dependensi terinstal, Anda dapat menjalankan aplikasi menggunakan perintah berikut:
 ```npm run dev``` // untuk menjalankan program 
 ```json-server --watch db.json --port 5000``` // untuk menjalankan dummy dari db servernya
